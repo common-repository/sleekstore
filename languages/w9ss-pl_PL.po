@@ -1,0 +1,1225 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: w9ss\n"
+"POT-Creation-Date: 2013-01-11 08:34+0100\n"
+"PO-Revision-Date: 2013-01-11 08:34+0100\n"
+"Last-Translator: dunqan <dunqan@w9.pl>\n"
+"Language-Team: \n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: w9fw.php:2 include/w9fw/w9fwForm.php:127
+msgid "Required field."
+msgstr "Pole wymagane."
+
+#: w9fw.php:2 include/w9fw/w9fwForm.php:136
+msgid "Valid e-mail address is required."
+msgstr "Wymagany poprawny adres e-mail."
+
+#: w9fw.php:2 include/w9fw/w9fwForm.php:143
+msgid "To few characters."
+msgstr "Zbyt mała liczba znaków."
+
+#: w9ss.php:178
+msgid "Product"
+msgstr "Produkt"
+
+#: w9ss.php:189
+msgid "sleekStore settings"
+msgstr "Ustawienia sleekStore"
+
+#: w9ss.php:190 w9ss_admin.php:32 cache/vZamowienie_index.html.php:2
+msgid "Orders"
+msgstr "Zamówienia"
+
+#: w9ss.php:191 w9ss_admin.php:34 cache/vInventory_index.html.php:2
+#: cache/vInventory_index.html.php:16
+msgid "Inventory"
+msgstr "Stan magazynowy"
+
+#: w9ss.php:192 w9ss_admin.php:36 cache/vTemplate_index.html.php:2
+msgid "Templates"
+msgstr "Szablony"
+
+#: w9ss.php:193
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: w9ss.php:219
+msgid "sleekStore - product settings"
+msgstr "sleekStore - ustawienia produktu"
+
+#: w9ss.php:278
+msgid "sleekStore Cart"
+msgstr "Koszyk sleekStore"
+
+#: w9ss.php:279
+msgid "sleekStore cart"
+msgstr "koszyk sleekStore"
+
+#: w9ss.php:327 w9ss_admin.php:26 w9ss_admin.php:28
+#: cache/vAdmin_firstrun.html.php:37 cache/vAdmin_index.html.php:31
+msgid "Cart"
+msgstr "Koszyk"
+
+#: w9ss.php:331
+msgid "Title:"
+msgstr "Tytuł:"
+
+#: w9ss_admin.php:1 w9ss_admin.php:3 w9ss_admin.php:24
+#: Controller/AdminController.php:10 Controller/AdminController.php:13
+#: Controller/InventoryController.php:3 Controller/InventoryController.php:6
+#: Controller/TemplateController.php:3 Controller/TemplateController.php:6
+#: Controller/ZamowienieController.php:3 Controller/ZamowienieController.php:6
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: w9ss_admin.php:1 Controller/AdminController.php:63
+msgid "USD"
+msgstr "PLN"
+
+#: w9ss_admin.php:1 Controller/AdminController.php:66
+#: Controller/AdminController.php:141
+msgid "pcs"
+msgstr "szt."
+
+#: w9ss_admin.php:1 w9ss_base.php:4 Controller/ShopController.php:267
+#: Controller/ShopController.php:299 Controller/ZamowienieController.php:53
+#: Controller/ZamowienieController.php:87
+msgid "Order not found"
+msgstr "Nie znaleziono zamówienia"
+
+#: w9ss_admin.php:1 w9ss_admin.php:32 w9ss_base.php:4
+#: cache/vZamowienie_index.html.php:5 Controller/ZamowienieController.php:66
+#: Service/Notifier.php:25
+msgid "New"
+msgstr "Nowe"
+
+#: w9ss_admin.php:1 w9ss_base.php:4 Controller/ZamowienieController.php:67
+#: Service/Notifier.php:26
+msgid "* Payment started"
+msgstr "* Płatność rozpoczęta"
+
+#: w9ss_admin.php:1 w9ss_base.php:4 Controller/ZamowienieController.php:68
+#: Service/Notifier.php:27
+msgid "*** Payment received"
+msgstr "*** Płatność otrzymana"
+
+#: w9ss_admin.php:1 w9ss_base.php:4 Controller/ZamowienieController.php:69
+#: Service/Notifier.php:28
+msgid "* Payment rejected"
+msgstr "* Płatność odrzucona"
+
+#: w9ss_admin.php:1 w9ss_base.php:4 Controller/ZamowienieController.php:70
+#: Service/Notifier.php:29
+msgid "* Payment canceled"
+msgstr "* Płatność anulowana"
+
+#: w9ss_admin.php:1 w9ss_base.php:4 Controller/ZamowienieController.php:71
+#: Service/Notifier.php:30
+msgid "* Payment for verification"
+msgstr "* Płatność do wyjaśnienia"
+
+#: w9ss_admin.php:1 w9ss_base.php:4 Controller/ZamowienieController.php:72
+#: Service/Notifier.php:31
+msgid "Accepted"
+msgstr "Zaakceptowane"
+
+#: w9ss_admin.php:1 w9ss_base.php:4 Controller/ZamowienieController.php:73
+#: Service/Notifier.php:32
+msgid "Waiting for payment"
+msgstr "Oczekuje na wpłatę"
+
+#: w9ss_admin.php:1 w9ss_base.php:4 Controller/ZamowienieController.php:74
+#: Service/Notifier.php:33
+msgid "Waiting for shipment"
+msgstr "Oczekuje na wysyłkę"
+
+#: w9ss_admin.php:1 w9ss_base.php:4 Controller/ZamowienieController.php:75
+#: Service/Notifier.php:34
+msgid "Send"
+msgstr "Wysłane"
+
+#: w9ss_admin.php:1 w9ss_admin.php:32 w9ss_base.php:4
+#: cache/vZamowienie_index.html.php:7 Controller/ZamowienieController.php:76
+#: Service/Notifier.php:35
+msgid "Closed"
+msgstr "Zakończone"
+
+#: w9ss_admin.php:1 w9ss_base.php:4 Controller/ZamowienieController.php:77
+#: Service/Notifier.php:36
+msgid "Canceled"
+msgstr "Anulowane"
+
+#: w9ss_admin.php:1 Controller/ZamowienieController.php:93
+msgid "Sum"
+msgstr "Kwota"
+
+#: w9ss_admin.php:1 w9ss_admin.php:26 w9ss_admin.php:28
+#: cache/vAdmin_firstrun.html.php:55 cache/vAdmin_index.html.php:45
+#: Controller/ZamowienieController.php:94
+msgid "Currency"
+msgstr "Waluta"
+
+#: w9ss_admin.php:1 w9ss_admin.php:32 cache/vShop_receipt.html.php:22
+#: cache/vShop_receipt_email.txt.php:9 cache/vZamowienie_index.html.php:20
+#: Controller/ZamowienieController.php:95
+msgid "Payment"
+msgstr "Płatność"
+
+#: w9ss_admin.php:1 w9ss_admin.php:32 cache/vZamowienie_index.html.php:21
+#: Controller/ZamowienieController.php:96
+msgid "Delivery"
+msgstr "Przesyłka"
+
+#: w9ss_admin.php:1 w9ss_admin.php:32 w9ss_admin.php:33
+#: cache/vZamowienie_index.html.php:24 cache/vZamowienie_show.html.php:44
+#: Controller/ZamowienieController.php:97
+msgid "Description"
+msgstr "Opis"
+
+#: w9ss_admin.php:1 w9ss_admin.php:32 w9ss_admin.php:33
+#: cache/vShop_order.html.php:59 cache/vShop_receipt.html.php:40
+#: cache/vShop_receipt_email.txt.php:23 cache/vZamowienie_index.html.php:23
+#: cache/vZamowienie_show.html.php:29 Controller/ZamowienieController.php:98
+msgid "Comments"
+msgstr "Uwagi"
+
+#: w9ss_admin.php:1 Controller/ZamowienieController.php:99
+msgid "Email address"
+msgstr "Adres e-mail"
+
+#: w9ss_admin.php:1 cache/vShop_order.html.php:19
+#: Controller/ZamowienieController.php:100
+msgid "First name"
+msgstr "Imię"
+
+#: w9ss_admin.php:1 cache/vShop_order.html.php:23
+#: Controller/ZamowienieController.php:101
+msgid "Surname"
+msgstr "Nazwisko"
+
+#: w9ss_admin.php:1 cache/vShop_order.html.php:35
+#: Controller/ZamowienieController.php:102
+msgid "Street"
+msgstr "Ulica"
+
+#: w9ss_admin.php:1 cache/vShop_order.html.php:39
+#: Controller/ZamowienieController.php:103
+msgid "Building no"
+msgstr "Nr domu"
+
+#: w9ss_admin.php:1 cache/vShop_order.html.php:39
+#: Controller/ZamowienieController.php:104
+msgid "Apartment no"
+msgstr "Nr lokalu"
+
+#: w9ss_admin.php:1 cache/vShop_order.html.php:43
+#: Controller/ZamowienieController.php:105
+msgid "City"
+msgstr "Miasto"
+
+#: w9ss_admin.php:1 cache/vShop_order.html.php:47
+#: Controller/ZamowienieController.php:106
+msgid "Post code"
+msgstr "Kod pocztowy"
+
+#: w9ss_admin.php:1 cache/vShop_order.html.php:51
+#: Controller/ZamowienieController.php:107
+msgid "Country"
+msgstr "Kraj"
+
+#: w9ss_admin.php:1 w9ss_admin.php:33 cache/vShop_order.html.php:55
+#: cache/vShop_receipt.html.php:30 cache/vShop_receipt_email.txt.php:15
+#: cache/vZamowienie_show.html.php:25 Controller/ZamowienieController.php:108
+msgid "Phone"
+msgstr "Telefon"
+
+#: w9ss_admin.php:1 Controller/ZamowienieController.php:144
+msgid "Order status change"
+msgstr "Zmiana statusu zamówienia"
+
+#: w9ss_admin.php:24 Controller/TemplateController.php:158
+msgid "cart page"
+msgstr "strona koszyka"
+
+#: w9ss_admin.php:24 Controller/TemplateController.php:159
+msgid "empty cart page"
+msgstr "strona pustego koszyka"
+
+#: w9ss_admin.php:24 Controller/TemplateController.php:160
+msgid "order page"
+msgstr "strona zamówienia"
+
+#: w9ss_admin.php:24 Controller/TemplateController.php:161
+msgid "order confirmation page"
+msgstr "strona potwierdzenia zamówienia"
+
+#: w9ss_admin.php:24 Controller/TemplateController.php:162
+msgid "payment page"
+msgstr "strona płatności"
+
+#: w9ss_admin.php:24 Controller/TemplateController.php:163
+msgid "\"add to cart\" button with product price"
+msgstr "przycisk \"dodaj do koszyka\" z ceną"
+
+#: w9ss_admin.php:24 Controller/TemplateController.php:164
+msgid "cart widget"
+msgstr "widget koszyka"
+
+#: w9ss_admin.php:24 Controller/TemplateController.php:165
+msgid "email body for order confirmation"
+msgstr "treść wiadomości e-mail potwierdzającej zamówienie"
+
+#: w9ss_admin.php:24 Controller/TemplateController.php:166
+msgid "email body for status change information"
+msgstr "treść wiadomości e-mail informującej o zmianie statusu"
+
+#: w9ss_admin.php:24 Controller/TemplateController.php:167
+msgid "payment page for dotpay.pl module"
+msgstr "strona płatności modułu dotpay.pl"
+
+#: w9ss_admin.php:24 Controller/TemplateController.php:168
+msgid "payment page for payu.pl module"
+msgstr "strona płatności modułu payu.pl"
+
+#: w9ss_admin.php:24 Controller/TemplateController.php:169
+msgid "payment page for PayPal module"
+msgstr "strona płatności modułu PayPal"
+
+#: w9ss_admin.php:24 Controller/TemplateController.php:171
+msgid ""
+"\"add to cart\" button with price for products defined by shortcode "
+"[ss_productAdd]"
+msgstr ""
+"przycisk „dodaj do koszyka” wraz z ceną produktu dla produktów definiowanych "
+"w treści za pomocą znacznika (shortcode) [ss_productAdd]"
+
+#: w9ss_admin.php:24 Controller/TemplateController.php:172
+msgid "List layout for products generated by [ss_productlist] shortcode"
+msgstr "Układ listy produktów wygenerowanej za pomocą tagu [ss_productlist]"
+
+#: w9ss_admin.php:24 Controller/TemplateController.php:173
+msgid ""
+"List layout for products generated by [ss_productlist view=grid] shortcode"
+msgstr ""
+"Układ listy produktów wygenerowanej za pomocą tagu [ss_productlist view=grid]"
+
+#: w9ss_admin.php:24 Controller/TemplateController.php:174
+msgid ""
+"List layout for products generated by [ss_productlist view=imagegrid] "
+"shortcode"
+msgstr ""
+"Układ listy produktów wygenerowanej za pomocą tagu [ss_productlist "
+"view=imagegrid]"
+
+#: w9ss_admin.php:24 w9ss_admin.php:26 cache/vAdmin_configured.html.php:4
+#: cache/vAdmin_firstrun.html.php:4
+msgid "Welcome to sleekStore!"
+msgstr "Witamy w sleekStore!"
+
+#: w9ss_admin.php:24 cache/vAdmin_configured.html.php:8
+msgid "Well done!"
+msgstr "Dobra robota!"
+
+#: w9ss_admin.php:24 cache/vAdmin_configured.html.php:9
+msgid "You have successfuly configured sleekStore."
+msgstr "sleekStore został skonfigurowany pomyślnie."
+
+#: w9ss_admin.php:24 w9ss_admin.php:26 cache/vAdmin_configured.html.php:14
+#: cache/vAdmin_firstrun.html.php:11
+msgid "Read plugin documentation"
+msgstr "Przeczytaj dokumentację wtyczki"
+
+#: w9ss_admin.php:24 cache/vAdmin_configured.html.php:18
+msgid "Continue"
+msgstr "Kontynuuj"
+
+#: w9ss_admin.php:25 w9ss_admin.php:28 w9ss_admin.php:30 w9ss_admin.php:33
+#: w9ss_admin.php:35 cache/vAdmin_delivery.html.php:2
+#: cache/vAdmin_index.html.php:2 cache/vAdmin_payment.html.php:2
+#: cache/vTemplate_edit.html.php:2 cache/vZamowienie_show.html.php:2
+msgid "Saved."
+msgstr "Zapisano."
+
+#: w9ss_admin.php:25 cache/vAdmin_delivery.html.php:12
+msgid "Payment in advance"
+msgstr "Płatność z góry"
+
+#: w9ss_admin.php:25 w9ss_admin.php:29 w9ss_admin.php:34
+#: cache/vAdmin_delivery.html.php:18 cache/vAdmin_delivery.html.php:28
+#: cache/vAdmin_delivery.html.php:41 cache/vAdmin_delivery.html.php:51
+#: cache/vAdmin_metabox.html.php:3 cache/vComponents_addProduct.html.php:7
+#: cache/vComponents_addToCart.html.php:7 cache/vInventory_index.html.php:15
+#: cache/vShop_addProduct.html.php:7 cache/vShop_addToCart.html.php:7
+#: cache/vShop_cart.html.php:12
+msgid "Price"
+msgstr "Cena"
+
+#: w9ss_admin.php:25 cache/vAdmin_delivery.html.php:19
+#: cache/vAdmin_delivery.html.php:29 cache/vAdmin_delivery.html.php:42
+#: cache/vAdmin_delivery.html.php:52
+msgid "Id"
+msgstr "Id"
+
+#: w9ss_admin.php:25 cache/vAdmin_delivery.html.php:24
+#: cache/vAdmin_delivery.html.php:47
+msgid "Add new:"
+msgstr "Dodaj nową"
+
+#: w9ss_admin.php:25 w9ss_admin.php:28 w9ss_admin.php:30
+#: cache/vAdmin_delivery.html.php:33 cache/vAdmin_delivery.html.php:56
+#: cache/vAdmin_index.html.php:99 cache/vAdmin_payment.html.php:39
+#: cache/vAdmin_payment.html.php:60 cache/vAdmin_payment.html.php:81
+#: cache/vAdmin_payment.html.php:97 cache/vAdmin_payment.html.php:108
+msgid "Save Changes"
+msgstr "Zapisz zmiany"
+
+#: w9ss_admin.php:25 w9ss_admin.php:30 cache/vAdmin_delivery.html.php:36
+#: cache/vAdmin_payment.html.php:103
+msgid "Payment on delivery"
+msgstr "Płatność przy odbiorze"
+
+#: w9ss_admin.php:26 cache/vAdmin_firstrun.html.php:22
+msgid "First-time sleekStore setup"
+msgstr "Pierwsza konfiguracja sleekStore"
+
+#: w9ss_admin.php:26 cache/vAdmin_firstrun.html.php:26
+msgid "If you are happy with default settings just click"
+msgstr "Jeżeli zadowolisz się ustawieniami domyślnymi, po prostu kliknij"
+
+#: w9ss_admin.php:26 cache/vAdmin_firstrun.html.php:28
+#: cache/vAdmin_firstrun.html.php:113
+msgid "Configure sleekStore"
+msgstr "Konfiguruj sleekStore"
+
+#: w9ss_admin.php:26 cache/vAdmin_firstrun.html.php:32
+msgid "The most important option"
+msgstr "Najważniejszy parametr konfiguracyjny"
+
+#: w9ss_admin.php:26 w9ss_admin.php:28 cache/vAdmin_firstrun.html.php:34
+#: cache/vAdmin_index.html.php:28
+msgid "Module/cart page"
+msgstr "Strona koszyka/modułu"
+
+#: w9ss_admin.php:26 w9ss_admin.php:28 cache/vAdmin_firstrun.html.php:35
+#: cache/vAdmin_index.html.php:29 Views/Admin/firstrun.html.php:35
+#: Views/Admin/index.html.php:29
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: w9ss_admin.php:26 w9ss_admin.php:28 cache/vAdmin_firstrun.html.php:37
+#: cache/vAdmin_index.html.php:31
+msgid "OR"
+msgstr "LUB"
+
+#: w9ss_admin.php:26 w9ss_admin.php:28 cache/vAdmin_firstrun.html.php:37
+#: cache/vAdmin_index.html.php:31
+msgid "add new page titled"
+msgstr "dodaj nową stronę o tytule"
+
+#: w9ss_admin.php:26 cache/vAdmin_firstrun.html.php:43
+msgid "Detailed settings"
+msgstr "Ustawienia szczegółowe"
+
+#: w9ss_admin.php:26 w9ss_admin.php:28 cache/vAdmin_firstrun.html.php:45
+#: cache/vAdmin_index.html.php:35
+msgid "Product's post type"
+msgstr "Typy postów będące produktami"
+
+#: w9ss_admin.php:26 w9ss_admin.php:28 cache/vAdmin_firstrun.html.php:57
+#: cache/vAdmin_index.html.php:47
+msgid ""
+"Always make sure that defined currency is compatible with your payment "
+"methods."
+msgstr ""
+"Zawsze upewnij się, że zdefiniowana waluta jest zgodna z twoimi metodami "
+"płatności."
+
+#: w9ss_admin.php:26 w9ss_admin.php:28 cache/vAdmin_firstrun.html.php:60
+#: cache/vAdmin_index.html.php:50
+msgid "Default unit for products"
+msgstr "Domyślna jednostka dla produktów"
+
+#: w9ss_admin.php:26 w9ss_admin.php:28 cache/vAdmin_firstrun.html.php:66
+#: cache/vAdmin_index.html.php:56
+msgid "E-mail address used in a store"
+msgstr "Adres e-mail wykorzystywany w sklepie"
+
+#: w9ss_admin.php:26 w9ss_admin.php:28 cache/vAdmin_firstrun.html.php:72
+#: cache/vAdmin_index.html.php:62
+msgid ""
+"Automatically place the \"add to cart\" button on the posts/pages with "
+"defined price"
+msgstr ""
+"Automatycznie umieszczaj przycisk \"dodaj do koszyka\" na postach/stronach "
+"ze zdefiniowaną ceną"
+
+#: w9ss_admin.php:26 w9ss_admin.php:28 cache/vAdmin_firstrun.html.php:75
+#: cache/vAdmin_index.html.php:65
+msgid "No"
+msgstr "Nie"
+
+#: w9ss_admin.php:26 w9ss_admin.php:28 cache/vAdmin_firstrun.html.php:76
+#: cache/vAdmin_index.html.php:66
+msgid "Before post content"
+msgstr "Na początku treści"
+
+#: w9ss_admin.php:26 w9ss_admin.php:28 cache/vAdmin_firstrun.html.php:77
+#: cache/vAdmin_index.html.php:67
+msgid "After post content"
+msgstr "Na końcu treści"
+
+#: w9ss_admin.php:26 cache/vAdmin_firstrun.html.php:83
+msgid "Other settings"
+msgstr "Pozostałe ustawienia"
+
+#: w9ss_admin.php:26 w9ss_admin.php:28 cache/vAdmin_firstrun.html.php:92
+#: cache/vAdmin_index.html.php:78
+msgid "Show quantity selection with \"add to cart\" button"
+msgstr "Pokazuj wybór ilości przy przycisku \"dodaj do koszyka\""
+
+#: w9ss_admin.php:26 w9ss_admin.php:28 cache/vAdmin_firstrun.html.php:97
+#: cache/vAdmin_index.html.php:83
+msgid "Hide product after running out of stock (set status to \"draft\")"
+msgstr "Ukryj produkt po wyczerpaniu zapasów (ustawia status na \"szkic\")"
+
+#: w9ss_admin.php:26 w9ss_admin.php:28 cache/vAdmin_firstrun.html.php:103
+#: cache/vAdmin_index.html.php:89
+msgid "Add to cart redirects to cart page"
+msgstr "Dodaj do koszyka przenosi na stronę koszyka"
+
+#: w9ss_admin.php:26 w9ss_admin.php:28 cache/vAdmin_firstrun.html.php:109
+#: cache/vAdmin_index.html.php:95
+msgid "Use default CSS styles"
+msgstr "Użyj domyślnych styli CSS sklepu"
+
+#: w9ss_admin.php:27 cache/vAdmin_header.html.php:2
+msgid "Module settings"
+msgstr "Konfiguracja modułu"
+
+#: w9ss_admin.php:27 cache/vAdmin_header.html.php:3
+msgid "Payment methods"
+msgstr "Formy płatności"
+
+#: w9ss_admin.php:27 cache/vAdmin_header.html.php:4
+msgid "Delivery types"
+msgstr "Sposób dostawy"
+
+#: w9ss_admin.php:28 cache/vAdmin_index.html.php:11
+msgid "Version"
+msgstr "Wersja"
+
+#: w9ss_admin.php:28 cache/vAdmin_index.html.php:13
+msgid "http://www.sleekstore.net/documentation/"
+msgstr "http://www.sleekstore.pl/dokumentacja/"
+
+#: w9ss_admin.php:28 cache/vAdmin_index.html.php:13
+msgid "Plugin documentation"
+msgstr "Dokumentacja wtyczki"
+
+#: w9ss_admin.php:28 cache/vAdmin_index.html.php:23
+msgid "Plugin configuration"
+msgstr "Konfiguracja modułu"
+
+#: w9ss_admin.php:29 cache/vAdmin_metabox.html.php:7
+msgid "Use inventory balance"
+msgstr "Użyj stanów magazynowych"
+
+#: w9ss_admin.php:29 cache/vAdmin_metabox.html.php:14
+msgid "Quantity unit"
+msgstr "Jednostka ilości"
+
+#: w9ss_admin.php:29 cache/vAdmin_metabox.html.php:19
+msgid "Quantity selection"
+msgstr "Wybór ilości"
+
+#: w9ss_admin.php:29 cache/vAdmin_metabox.html.php:21
+msgid "Default"
+msgstr "Domyślne"
+
+#: w9ss_admin.php:29 cache/vAdmin_metabox.html.php:22
+msgid "Hide"
+msgstr "Ukryj"
+
+#: w9ss_admin.php:29 cache/vAdmin_metabox.html.php:23
+msgid "Show"
+msgstr "Pokaż"
+
+#: w9ss_admin.php:29 cache/vAdmin_metabox.html.php:27
+msgid "Quantity limit"
+msgstr "Limit ilości"
+
+#: w9ss_admin.php:29 cache/vAdmin_metabox.html.php:33
+msgid "Automatic action after payment"
+msgstr "Automatyczna akcja po otrzymaniu płatności"
+
+#: w9ss_admin.php:29 cache/vAdmin_metabox.html.php:35
+msgid "No action"
+msgstr "Brak akcji"
+
+#: w9ss_admin.php:29 cache/vAdmin_metabox.html.php:36
+msgid "Send e-mail"
+msgstr "Wyślij wiadomość email"
+
+#: w9ss_admin.php:29 cache/vAdmin_metabox.html.php:37
+msgid "Send e-mail with attachment"
+msgstr "Wyślij wiadomość z załącznikiem"
+
+#: w9ss_admin.php:29 cache/vAdmin_metabox.html.php:47
+msgid "Message"
+msgstr "Treść wiadomości"
+
+#: w9ss_admin.php:29 cache/vAdmin_metabox.html.php:52
+msgid "sleekStore attachment"
+msgstr "Załącznik sleekStore"
+
+#: w9ss_admin.php:29 cache/vAdmin_metabox.html.php:53
+msgid "Remove attachment"
+msgstr "Usuń załącznik"
+
+#: w9ss_admin.php:29 cache/vAdmin_metabox.html.php:56
+msgid "Upload an attachment"
+msgstr "Wczytaj załącznik"
+
+#: w9ss_admin.php:30 cache/vAdmin_payment.html.php:12
+msgid "PAYU - online payments"
+msgstr "PAYU - płatności online"
+
+#: w9ss_admin.php:30 cache/vAdmin_payment.html.php:13
+#: cache/vAdmin_payment.html.php:44 cache/vAdmin_payment.html.php:66
+#: cache/vAdmin_payment.html.php:89
+msgid "active channel"
+msgstr "kanał aktywny"
+
+#: w9ss_admin.php:30 cache/vAdmin_payment.html.php:14
+#: cache/vAdmin_payment.html.php:45 cache/vAdmin_payment.html.php:67
+#: cache/vAdmin_payment.html.php:90 cache/vAdmin_payment.html.php:106
+msgid "Name in store"
+msgstr "Nazwa w sklepie"
+
+#: w9ss_admin.php:30 cache/vAdmin_payment.html.php:16
+msgid "Point of sale Id (pos_id)"
+msgstr "Id punktu płatności (pos_id)"
+
+#: w9ss_admin.php:30 cache/vAdmin_payment.html.php:17
+msgid "Key (MD5)"
+msgstr "Klucz (MD5)"
+
+#: w9ss_admin.php:30 cache/vAdmin_payment.html.php:18
+msgid "Second key (MD5)"
+msgstr "Drugi klucz (MD5)"
+
+#: w9ss_admin.php:30 cache/vAdmin_payment.html.php:19
+msgid "Payment authorization key (pos_auth_key)"
+msgstr "Klucz autoryzacji płatności (pos_auth_key)"
+
+#: w9ss_admin.php:30 cache/vAdmin_payment.html.php:23
+msgid "Configuration data for PayU.pl"
+msgstr "Dane konfiguracyjne dla PayU.pl"
+
+#: w9ss_admin.php:30 cache/vAdmin_payment.html.php:26
+msgid "Error return address"
+msgstr "Adres powrotu - błąd"
+
+#: w9ss_admin.php:30 cache/vAdmin_payment.html.php:30
+msgid "Successful return address"
+msgstr "Adres powrotu - poprawnie"
+
+#: w9ss_admin.php:30 cache/vAdmin_payment.html.php:34
+msgid "Address for reports"
+msgstr "Adres raportów"
+
+#: w9ss_admin.php:30 cache/vAdmin_payment.html.php:42
+msgid "DOTPAY - online payments"
+msgstr "DOTPAY - płatności online"
+
+#: w9ss_admin.php:30 cache/vAdmin_payment.html.php:47
+msgid "Dotpay ID"
+msgstr "Dotpay ID"
+
+#: w9ss_admin.php:30 cache/vAdmin_payment.html.php:48
+msgid "Dotpay PIN"
+msgstr "Dotpay PIN"
+
+#: w9ss_admin.php:30 cache/vAdmin_payment.html.php:52
+msgid "Configuration data for dotpay.pl"
+msgstr "Dane konfiguracyjne dla dotpay.pl"
+
+#: w9ss_admin.php:30 cache/vAdmin_payment.html.php:55
+msgid "URLC address"
+msgstr "Adres URLC"
+
+#: w9ss_admin.php:30 cache/vAdmin_payment.html.php:64
+msgid "PayPal payments"
+msgstr "PayPal - płatności online"
+
+#: w9ss_admin.php:30 cache/vAdmin_payment.html.php:69
+msgid "PayPal email"
+msgstr "E-mail PayPal"
+
+#: w9ss_admin.php:30 cache/vAdmin_payment.html.php:73
+msgid "Configuration data for PayPal"
+msgstr "Dane konfiguracyjne dla PayPal.com"
+
+#: w9ss_admin.php:30 cache/vAdmin_payment.html.php:76
+msgid "IPN address"
+msgstr "Adres BPP (IPN)"
+
+#: w9ss_admin.php:30 cache/vAdmin_payment.html.php:87
+msgid "Classic wire transfer"
+msgstr "Przelew tradycyjny"
+
+#: w9ss_admin.php:30 cache/vAdmin_payment.html.php:92
+msgid "Account numbers and additional info for the client"
+msgstr "Numery kont oraz dodatkowe informacje dla klienta"
+
+#: w9ss_admin.php:30 cache/vAdmin_payment.html.php:104
+msgid ""
+"Payment on delivery is available automatically when you select the "
+"appropriate delivery methods."
+msgstr ""
+"Płatność przy odbiorze jest dostępna automatycznie po zaznaczeniu "
+"odpowiednich sposobów dostawy."
+
+#: w9ss_admin.php:31 w9ss_admin.php:33 cache/vZamowienie_edit.html.php:2
+#: cache/vZamowienie_show.html.php:73 Views/Zamowienie/edit.html.php:2
+msgid "Edit order"
+msgstr "Edytuj zamówienie"
+
+#: w9ss_admin.php:31 cache/vZamowienie_edit.html.php:8
+#: Views/Zamowienie/edit.html.php:8
+msgid "Save"
+msgstr "Zapisz"
+
+#: w9ss_admin.php:31 cache/vZamowienie_edit.html.php:13
+#: Views/Zamowienie/edit.html.php:13
+msgid "Delete"
+msgstr "Usuń"
+
+#: w9ss_admin.php:31 w9ss_admin.php:33 w9ss_admin.php:35
+#: cache/vTemplate_edit.html.php:35 cache/vZamowienie_edit.html.php:19
+#: cache/vZamowienie_show.html.php:71 Views/Zamowienie/edit.html.php:19
+msgid "Back to list"
+msgstr "Powrót do listy"
+
+#: w9ss_admin.php:32 cache/vZamowienie_index.html.php:6
+msgid "Active"
+msgstr "Aktywne"
+
+#: w9ss_admin.php:32 w9ss_admin.php:33 w9ss_admin.php:34
+#: cache/vInventory_index.html.php:17 cache/vZamowienie_index.html.php:17
+#: cache/vZamowienie_show.html.php:14
+msgid "Status"
+msgstr "Status"
+
+#: w9ss_admin.php:32 cache/vZamowienie_index.html.php:18
+msgid "Order no & date"
+msgstr "Numer i data"
+
+#: w9ss_admin.php:32 w9ss_admin.php:33 cache/vShop_cart.html.php:13
+#: cache/vZamowienie_index.html.php:19 cache/vZamowienie_show.html.php:17
+#: cache/vZamowienie_show.html.php:40
+msgid "Value"
+msgstr "Wartość"
+
+#: w9ss_admin.php:32 cache/vZamowienie_index.html.php:22
+msgid "Customer"
+msgstr "Klient"
+
+#: w9ss_admin.php:32 cache/vZamowienie_index.html.php:42
+msgid "Sum:"
+msgstr "Suma:"
+
+#: w9ss_admin.php:33 cache/vZamowienie_show.html.php:7
+msgid "Order"
+msgstr "Zamówienie"
+
+#: w9ss_admin.php:33 cache/vZamowienie_show.html.php:13
+msgid "Order No"
+msgstr "Zamowienie nr"
+
+#: w9ss_admin.php:33 cache/vGateway_PayuForm.html.php:26
+#: cache/vShop_PayuForm.html.php:31 cache/vZamowienie_show.html.php:15
+msgid "Payment method"
+msgstr "Forma płatności"
+
+#: w9ss_admin.php:33 cache/vZamowienie_show.html.php:16
+msgid "Delivery type"
+msgstr "Sposób dostawy"
+
+#: w9ss_admin.php:33 cache/vZamowienie_show.html.php:20
+msgid "Shipment details"
+msgstr "Dane do wysyłki"
+
+#: w9ss_admin.php:33 cache/vZamowienie_show.html.php:26
+msgid "IP address"
+msgstr "Adres IP"
+
+#: w9ss_admin.php:33 cache/vZamowienie_show.html.php:54
+msgid "Change status"
+msgstr "Zmień status na"
+
+#: w9ss_admin.php:33 cache/vZamowienie_show.html.php:61
+#: Views/Zamowienie/show.html.php:61
+msgid "Save status"
+msgstr "Zapisz status"
+
+#: w9ss_admin.php:33 cache/vZamowienie_show.html.php:63
+#: Views/Zamowienie/show.html.php:63
+msgid "Send confirmation to client"
+msgstr "Wyślij potwierdzenie do klienta"
+
+#: w9ss_admin.php:33 cache/vZamowienie_show.html.php:65
+#: Views/Zamowienie/show.html.php:65
+msgid "Execute automatic actions for order"
+msgstr "Wykonaj automatyczne akcje realizacji zamówienia"
+
+#: w9ss_admin.php:34 cache/vInventory_index.html.php:5
+msgid "Defined inventory"
+msgstr "Określony stan magazynowy"
+
+#: w9ss_admin.php:34 cache/vInventory_index.html.php:6
+msgid "Undefined inventory"
+msgstr "Nieokreślony stan magazynowy"
+
+#: w9ss_admin.php:34 cache/vInventory_index.html.php:14
+msgid "Product name"
+msgstr "Nazwa produktu"
+
+#: w9ss_admin.php:35 cache/vTemplate_edit.html.php:6
+msgid "Edit template"
+msgstr "Edytuj szablon"
+
+#: w9ss_admin.php:35 cache/vTemplate_edit.html.php:14
+msgid "Choose template for editing"
+msgstr "Wybierz szablon do edycji"
+
+#: w9ss_admin.php:35 cache/vTemplate_edit.html.php:22
+msgid "Choose"
+msgstr "Wybierz"
+
+#: w9ss_admin.php:35 cache/vTemplate_edit.html.php:32
+msgid "Update file"
+msgstr "Zaktualizuj plik"
+
+#: w9ss_admin.php:35 cache/vTemplate_edit.html.php:42
+msgid "Reset this template to default"
+msgstr "Zresetuj ten szablon"
+
+#: w9ss_admin.php:35 w9ss_admin.php:36 w9ss_admin.php:37
+#: cache/vTemplate_edit.html.php:45 cache/vTemplate_index.html.php:22
+#: cache/vTemplate_remove.html.php:19
+msgid "Localized"
+msgstr "Zlokalizowane"
+
+#: w9ss_admin.php:35 w9ss_admin.php:36 w9ss_admin.php:37
+#: cache/vTemplate_edit.html.php:46 cache/vTemplate_index.html.php:23
+#: cache/vTemplate_remove.html.php:20
+msgid "Multilingual"
+msgstr "Wielojęzyczne"
+
+#: w9ss_admin.php:35 cache/vTemplate_edit.html.php:49
+msgid "Reset"
+msgstr "Resetuj"
+
+#: w9ss_admin.php:36 cache/vTemplate_index.html.php:18
+msgid "Your theme does not contain sleekStore template files."
+msgstr "Twój motyw nie zawiera plików szablonu sleekStore."
+
+#: w9ss_admin.php:36 cache/vTemplate_index.html.php:20
+msgid "Generate template files for your theme"
+msgstr "Wygeneruj pliki szablonów dla Twojego motywu"
+
+#: w9ss_admin.php:36 cache/vTemplate_index.html.php:26
+msgid "Generate"
+msgstr "Generuj"
+
+#: w9ss_admin.php:36 cache/vTemplate_index.html.php:35
+msgid "Remove or reset all"
+msgstr "Usuń lub zresetuj wszystko"
+
+#: w9ss_admin.php:37 cache/vTemplate_remove.html.php:2
+msgid "Remove or reset all templates"
+msgstr "Usuń lub zresetuj wszystkie szablony"
+
+#: w9ss_admin.php:37 cache/vTemplate_remove.html.php:4
+msgid "Warning!"
+msgstr "Uwaga!"
+
+#: w9ss_admin.php:37 cache/vTemplate_remove.html.php:4
+msgid "By removing or reseting your templates you will lose all your changes!"
+msgstr "Usuwając lub resetując szablony utracisz wszystkie wprowadzone zmiany!"
+
+#: w9ss_admin.php:37 cache/vTemplate_remove.html.php:8
+msgid "Remove all template files from your current theme"
+msgstr "Usuń wszystkie pliki szablonów z twojego aktualnego motywu"
+
+#: w9ss_admin.php:37 cache/vTemplate_remove.html.php:9
+msgid "Remove All"
+msgstr "Usuń wszystko"
+
+#: w9ss_admin.php:37 cache/vTemplate_remove.html.php:16
+msgid "Reset all template files to default ones"
+msgstr "Zresetuj wszystkie pliki szablonów"
+
+#: w9ss_admin.php:37 cache/vTemplate_remove.html.php:25
+msgid "Reset All"
+msgstr "Zresetuj wszystko"
+
+#: w9ss_admin.php:37 cache/vTemplate_remove.html.php:31
+msgid "Back"
+msgstr "Powrót"
+
+#: w9ss_base.php:4 Service/ShopOptions.php:29
+msgid "Wire Transfer"
+msgstr "Przelew tradycyjny"
+
+#: w9ss_base.php:4 Service/ShopOptions.php:30
+msgid ""
+"Bank Name\n"
+"Bank Address\n"
+"Account Name\n"
+"Account Number\n"
+"Please reference order number."
+msgstr ""
+"Nazwa Banku\n"
+"Nazwa konta\n"
+"Numer konta\n"
+"W tytule przelewu prosimy o wpisanie numeru zamówienia."
+
+#: w9ss_base.php:4 Service/ShopOptions.php:31
+msgid "Dotpay - secure online payments"
+msgstr "Dotpay - bezpieczne płatności online"
+
+#: w9ss_base.php:4 Service/ShopOptions.php:34
+msgid "PayU - secure online payments"
+msgstr "PayU - bezpieczne płatności online"
+
+#: w9ss_base.php:4 Service/ShopOptions.php:41
+msgid "Cash on delivery"
+msgstr "Płatność przy odbiorze"
+
+#: w9ss_base.php:4 Service/ShopOptions.php:61
+msgid "Standard Mail"
+msgstr "Poczka Polska"
+
+#: w9ss_base.php:4 Service/ShopOptions.php:67
+msgid "Courier"
+msgstr "Kurier"
+
+#: w9ss_base.php:4 Service/ShopOptions.php:73
+msgid "Electronic shipment"
+msgstr "Przesyłka elektroniczna"
+
+#: w9ss_base.php:4 Service/ShopOptions.php:81
+msgid "Courier COD"
+msgstr "Kurier za pobraniem"
+
+#: w9ss_base.php:4 Service/ShopOptions.php:87
+msgid "Local pickup"
+msgstr "Odbiór osobisty"
+
+#: w9ss_base.php:4 Service/ShopOptions.php:167
+msgid "None"
+msgstr "Brak"
+
+#: w9ss_base.php:4 Service/Notifier.php:43
+#, php-format
+msgid "Order %d = %s"
+msgstr "Zamówienie %d = %s"
+
+#: w9ss_base.php:4 Service/Notifier.php:44
+#, php-format
+msgid "Order %d changed status to %s"
+msgstr "Zamowienie %d otrzymało status %s"
+
+#: w9ss_base.php:4 Controller/ComponentsController.php:25
+#: Controller/ShopController.php:69
+msgid "Added to cart"
+msgstr "Dodano do koszyka"
+
+#: w9ss_base.php:4 cache/vComponents_addToCart.html.php:15
+#: cache/vShop_addToCart.html.php:15 Controller/ShopController.php:70
+msgid "Out of stock"
+msgstr "Brak produktu"
+
+#: w9ss_base.php:4 Controller/ShopController.php:352
+msgid "Order no "
+msgstr "Zamowienie nr "
+
+#: w9ss_base.php:4 Controller/ShopController.php:362
+msgid "New sleekStore order"
+msgstr "Nowe zamówienie sleekStore"
+
+#: cache/vAdmin_firstrun.html.php:87 cache/vAdmin_index.html.php:73
+msgid "Append number of items in cart to cart page title"
+msgstr "Dołącz liczbę produktów w koszyku do tytulu strony koszyka"
+
+#: cache/vComponents_addProduct.html.php:9
+#: cache/vComponents_addToCart.html.php:13 cache/vShop_addProduct.html.php:9
+#: cache/vShop_addToCart.html.php:13
+msgid "Add to cart"
+msgstr "Dodaj do koszyka"
+
+#: cache/vComponents_cartWidget.html.php:2 cache/vShop_cartWidget.html.php:2
+msgid "Count"
+msgstr "Ilość"
+
+#: cache/vComponents_cartWidget.html.php:4 cache/vShop_cart.html.php:39
+#: cache/vShop_cartWidget.html.php:4
+msgid "Total"
+msgstr "Razem"
+
+#: cache/vComponents_cartWidget.html.php:6 cache/vShop_cartWidget.html.php:6
+msgid "Show cart"
+msgstr "Pokaż koszyk"
+
+#: cache/vGateway_dotpayForm.html.php:7 cache/vShop_DotpayForm.html.php:12
+msgid "en"
+msgstr "pl"
+
+#: cache/vGateway_dotpayForm.html.php:8 cache/vGateway_PaypalForm.html.php:9
+#: cache/vGateway_PayuForm.html.php:11 cache/vShop_DotpayForm.html.php:13
+#: cache/vShop_PaypalForm.html.php:14 cache/vShop_PayuForm.html.php:16
+#, php-format
+msgid "Order no %s"
+msgstr "Zamowienie nr %s"
+
+#: cache/vGateway_dotpayForm.html.php:25 cache/vShop_DotpayForm.html.php:30
+msgid "Pay now"
+msgstr "Zapłać teraz"
+
+#: cache/vGateway_dotpayForm.html.php:29 cache/vShop_DotpayForm.html.php:34
+msgid ""
+"When you click \"Pay now\" you will be redirected to a secure dotpay.pl page "
+"that handles online payments."
+msgstr ""
+"Po kliknięciu przycisku \"Płacę teraz\" zostaniesz przekierowany na "
+"bezpieczną stronę serwisu dotpay.pl, który zajmuje się obsługą płatności."
+
+#: cache/vGateway_PaypalForm.html.php:21 cache/vShop_PaypalForm.html.php:26
+msgid "https://www.paypal.com/en_US/i/btn/btn_paynow_LG.gif"
+msgstr "https://www.paypalobjects.com/pl_PL/PL/i/btn/btn_buynow_LG.gif"
+
+#: cache/vGateway_PaypalForm.html.php:22 cache/vShop_PaypalForm.html.php:27
+msgid "PayPal - fast and secure online payments."
+msgstr "PayPal - szybkie i bezpieczne płatności online"
+
+#: cache/vGateway_PaypalForm.html.php:29 cache/vShop_PaypalForm.html.php:34
+msgid ""
+"When you click \"Pay Now\" you will be redirected to a secure PayPal site "
+"that handles online payments."
+msgstr ""
+"Po kliknięciu przycisku \"Kup teraz\" zostaniesz przekierowany na bezpieczną "
+"stronę serwisu PayPal, który zajmuje się obsługą płatności."
+
+#: cache/vGateway_PayuForm.html.php:32 cache/vShop_PayuForm.html.php:37
+msgid ""
+"http://static.payu.com/en/standard/partners/buttons/payu_account_button_01."
+"png"
+msgstr ""
+"http://static.payu.com/pl/standard/partners/buttons/payu_account_button_01."
+"png"
+
+#: cache/vGateway_PayuForm.html.php:38 cache/vShop_PayuForm.html.php:43
+msgid ""
+"When you click \"Pay Now\" you will be redirected to a secure PayU.pl page "
+"that handles online payments."
+msgstr ""
+"Po kliknięciu przycisku \"Płacę teraz\" zostaniesz przekierowany na "
+"bezpieczną stronę serwisu PayU.pl, który zajmuje się obsługą płatności."
+
+#: cache/vShop_cart.html.php:1 cache/vShop_emptycart.html.php:1
+msgid "Items in shopping cart"
+msgstr "Produkty w koszyku"
+
+#: cache/vShop_cart.html.php:3
+msgid "Empty cart"
+msgstr "Wyczyść koszyk"
+
+#: cache/vShop_cart.html.php:10
+msgid "Name"
+msgstr "Nazwa"
+
+#: cache/vShop_cart.html.php:11
+msgid "Quantity"
+msgstr "Ilość"
+
+#: cache/vShop_cart.html.php:24
+msgid "Remove from cart"
+msgstr "Usuń z koszyka"
+
+#: cache/vShop_cart.html.php:46 cache/vShop_receipt.html.php:23
+#: cache/vShop_receipt_email.txt.php:10
+msgid "Shipment"
+msgstr "Przesyłka"
+
+#: cache/vShop_cart.html.php:56
+msgid "Place order"
+msgstr "Zamawiam"
+
+#: cache/vShop_DotpayForm.html.php:2 cache/vShop_payment.html.php:1
+#: cache/vShop_PaypalForm.html.php:2 cache/vShop_PayuForm.html.php:5
+msgid "Order finalization"
+msgstr "Finalizacja zamówienia"
+
+#: cache/vShop_DotpayForm.html.php:4 cache/vShop_payment.html.php:3
+#: cache/vShop_PaypalForm.html.php:4 cache/vShop_PayuForm.html.php:7
+#: cache/vShop_receipt.html.php:20 cache/vShop_receipt_email.txt.php:6
+msgid "Order no"
+msgstr "Zamówienie nr "
+
+#: cache/vShop_DotpayForm.html.php:5 cache/vShop_payment.html.php:4
+#: cache/vShop_PaypalForm.html.php:5 cache/vShop_PayuForm.html.php:8
+#: cache/vShop_receipt.html.php:21 cache/vShop_receipt_email.txt.php:7
+msgid "Amount"
+msgstr "Kwota"
+
+#: cache/vShop_emptycart.html.php:3
+msgid "Your shopping cart is empty."
+msgstr "Twój koszyk jest pusty."
+
+#: cache/vShop_order.html.php:1
+msgid "Order - step 2/3"
+msgstr "Zamówienie - krok 2/3"
+
+#: cache/vShop_order.html.php:9
+msgid "PAYMENT METHOD"
+msgstr "FORMA PŁATNOŚCI"
+
+#: cache/vShop_order.html.php:16
+msgid "CUSTOMER"
+msgstr "KLIENT"
+
+#: cache/vShop_order.html.php:27 cache/vShop_receipt.html.php:26
+msgid "E-mail"
+msgstr "E-mail"
+
+#: cache/vShop_order.html.php:64
+msgid "Finalize order"
+msgstr "Finalizuj zamówienie"
+
+#: cache/vShop_receipt.html.php:1
+msgid "Order confirmation"
+msgstr "Informacja o zamówieniu"
+
+#: cache/vShop_receipt.html.php:3
+msgid "Thank you, your order has been placed."
+msgstr "Dziękujemy, zamówienie zostało złożone."
+
+#: cache/vShop_receipt.html.php:7
+msgid "Warning: there was a problem with online payment."
+msgstr "Uwaga: wystąpił problem z realizacją płatności online."
+
+#: cache/vShop_receipt.html.php:8
+msgid ""
+"If you have trouble finalizing your order, please repeat your order or use "
+"another payment channel."
+msgstr ""
+"W przypadku problemów finalizacją zamówienia prosimy o ponowne złożenie "
+"zamówienia lub skorzystanie z innego kanału płatności."
+
+#: cache/vShop_receipt.html.php:12 cache/vShop_receipt_email.txt.php:30
+msgid "Payment info"
+msgstr "Informacja o płatności"
+
+#: cache/vShop_receipt.html.php:17 cache/vShop_receipt_email.txt.php:3
+msgid "Details of your order"
+msgstr "Oto szczegóły Twojego zamówienia"
+
+#: cache/vShop_receipt.html.php:18
+msgid "Details of your order were also sent to your e-mail address."
+msgstr "Szczegóły zamówienia zostały również wysłane na podany adres e-mail."
+
+#: cache/vShop_receipt.html.php:25 cache/vShop_receipt_email.txt.php:12
+msgid "Buyer"
+msgstr "Kupujący"
+
+#: cache/vShop_receipt.html.php:32 cache/vShop_receipt_email.txt.php:17
+msgid "Items"
+msgstr "Pozycje"
+
+#: cache/vShop_receipt.html.php:45
+msgid "Back to main page"
+msgstr "Powrót do strony głównej"
+
+#: cache/vShop_receipt_email.txt.php:1
+msgid "Thank you for your order."
+msgstr "Dziękujemy za złożone zamówienie."
+
+#: cache/vShop_receipt_email.txt.php:34 cache/vShop_status_email.txt.php:7
+msgid "If you have additional questions, don't hesitate to contact us."
+msgstr "W przypadku dodatkowych pytań prosimy o kontakt."
+
+#: cache/vShop_status_email.txt.php:1
+msgid "Hello!"
+msgstr "Witaj!"
+
+#: cache/vShop_status_email.txt.php:3
+msgid "Your order status has changed."
+msgstr "Informujemy o zmianie statusu Twojego zamówienia."
+
+#: cache/vShop_status_email.txt.php:5
+#, php-format
+msgid "Currently, Your order #%1$s has status %2$s."
+msgstr "Aktualnie Twoje zamówienie nr %1$s ma status: %2$s."
+
+#: cache/vShop_status_email.txt.php:9
+msgid "Best regards,"
+msgstr "Pozdrawiamy,"
+
+#~ msgid "payment paget for payu.pl module"
+#~ msgstr "strona płatności modułu payu.pl"
+
+#~ msgid "MY CART"
+#~ msgstr "MÓJ KOSZYK"
+
+#~ msgid "Price:"
+#~ msgstr "Cena:"
+
+#~ msgid "Id:"
+#~ msgstr "Id:"
+
+#~ msgid "Payment no %s"
+#~ msgstr "Płatność nr %s"
+
+#~ msgid "Send e-mail with attachments"
+#~ msgstr "Wyślij wiadomość z załącznikami"
+
+#~ msgid "attachment"
+#~ msgstr "załącznik"
+
+#~ msgid "BUYER INFORMATION"
+#~ msgstr "DANE KUPUJĄCEGO"
+
+#~ msgid "Status:"
+#~ msgstr "Status:"
+
+#~ msgid "Payment method:"
+#~ msgstr "Metoda płatności:"
+
+#~ msgid "Delivery type:"
+#~ msgstr "Rodzaj przesyłki:"
+
+#~ msgid "Value:"
+#~ msgstr "Watość:"
+
+#~ msgid "Phone:"
+#~ msgstr "Telefon:"
+
+#~ msgid "Comments:"
+#~ msgstr "Uwagi:"
+
+#~ msgid "Description:"
+#~ msgstr "Opis:"
+
+#~ msgid "To short."
+#~ msgstr "Zbyt mała liczba znaków."
